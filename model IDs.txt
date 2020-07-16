@@ -1,0 +1,78 @@
+repair 690cc to 69234 subcall from 5f440
+
+move old pointed from ad4a90 to ad4aC0 and
+from AD4AC0 to AD4AE0
+from AD4AF4 to AD4B14
+from AD4B20 to AD4B38
+
+new model IDs at AD4A70
+
+
+flipswap skeleton id 27 
+pointer: AD4A74
+data: 7D75D0//005F75D0
+
+flipswap inner id 28 (behavior ID 0x0278)
+pointer: AD4A7C
+col: 21a084
+data: 7D8770//005F8770
+
+
+flipswitch geo at 7D9FE0 (behavior ID 0x5D8)
+20 00 0f a0
+04 00 00 00
+	0e 00 00 03 80 29 db 48
+	04 00 00 00
+		15 01 00 00 xx
+		15 01 00 00 xx
+		15 01 00 00 xx
+		05 00 00 00
+	05 00 00 00
+01 00 00 00
+
+pointer 7d9ff4
+data 7DA020//5fa020
+
+00 5F AD D0
+
+jump tp 00 5f ae 20
+
+DLs at 7DB0B0//7DB110
+textures at 7db1a0//7db9a0
+
+flipswitch starspawner (behavior ID 0x02A0
+
+green switchboard (CFC)
+pointer: AD4A8C
+data 7DC1A0//005FC1A0
+
+
+
+wheel:
+pointer: AD4A94
+data: 7DDF40//005FDF40
+
+at 7E0AC0 asm code for green switchboard
+
+
+pointer AD4A9C
+data: 7E0EA0//00600EA0
+dl2 at 7e3610
+texture2 at 7e36a0
+
+geo at 7E3670
+
+
+coll at 7E3EA0
+asm for sunshine blocks at 7E4000
+behavrio at 13000D24
+
+track data at 7E4200
+
+
+saveflag
+pointer: AD4AA4
+data: 7E4400//00604400
+normals at 80604400//80604408
+behavior 13000d50
+asm at 7E69E0//806069e0
